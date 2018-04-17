@@ -1,0 +1,26 @@
+{
+  "name": "2case",
+  "version": "1.0.0",
+  "description": "Convierta texto fácilmente entre diferentes casos: lower case, UPPER CASE, Sentence case, Capitalized Case, aLtErNaTiNg cAsE, middle-hyphen-case y más.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesus997/2case.git"
+  },
+  "keywords": [
+    "to",
+    "case",
+    "2case",
+    "convert",
+    "case"
+  ],
+  "author": "Jesús Magallón",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jesus997/2case/issues"
+  },
+  "homepage": "https://github.com/jesus997/2case#readme"
+}
