@@ -76,10 +76,10 @@
 
       <div id="convert-app" class="convert-wrapper">
           <div class="container">
-              <textarea id="convert-area" class="convert-area form-control" id="" cols="30" rows="11">{{ message }}</textarea>
+              <textarea id="convert-area" class="convert-area form-control" cols="30" rows="11" v-model="text"></textarea>
               <div class="btn-group mt-2 flex-wrap" role="group" aria-label="2Case options">
-                <button type="button" class="btn btn-secondary">lower case</button>
-                <button type="button" class="btn btn-secondary">UPPER CASE</button>
+                <button type="button" class="btn btn-secondary" v-on:click="clc">lower case</button>
+                <button type="button" class="btn btn-secondary" v-on:click="cuc">UPPER CASE</button>
                 <button type="button" class="btn btn-secondary">Sentence case</button>
                 <button type="button" class="btn btn-secondary">Capitalized Case</button>
                 <button type="button" class="btn btn-secondary">aLtErNaTiNg cAsE</button>
@@ -87,7 +87,7 @@
                 <button type="button" class="btn btn-secondary">InVeRsE CaSe</button>
                 <button type="button" class="btn btn-secondary">middle-hyphen-case</button>
               </div>
-              <p id="convert-info" class="font-weight-light pt-2 mb-0">Numero de caracteres: <span class="cc">0</span> | Numero de palabras: <span class="wc">0</span></p>
+              <p id="convert-info" class="font-weight-light pt-2 mb-0">Numero de caracteres: <span v-html="charactersCount">0</span> | Numero de palabras: <span v-html="wordCount">0</span></p>
           </div>
       </div>
 
