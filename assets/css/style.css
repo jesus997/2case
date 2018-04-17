@@ -1,6 +1,11 @@
 :root {
     --jumbotron-padding-y: 3rem;
 }
+
+.navbar-dark .navbar-brand > svg {
+    fill: #fff;
+    margin-right: 4px;
+}
   
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
