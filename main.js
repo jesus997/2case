@@ -1,6 +1,6 @@
 
 fallback.load({
-    global_css: ['/assets/css/style.css'],
+    global_css: ['assets/css/style.css'],
 
     bootstrap_css: [
         "/node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -13,7 +13,7 @@ fallback.load({
     ],
 
     jQuery: [
-        '/node_modules/jquery/dist/jquery.slim.min.js',
+        'node_modules/jquery/dist/jquery.slim.min.js',
         '//code.jquery.com/jquery-3.2.1.slim.min.js'
     ],
 }, {
