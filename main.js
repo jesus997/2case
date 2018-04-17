@@ -26,7 +26,7 @@ fallback.load({
 }, {
     shim: {
         'bootstrap_js': ['jQuery'],
-        'global_js': ['vue']
+        'global_js': ['Vue']
     },
 
     callback: function(success, failed) {

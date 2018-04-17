@@ -4,5 +4,3 @@ var app = new Vue({
       message: 'Hello Vue!'
     }
 });
-
-alert("Estoy aqui!");
