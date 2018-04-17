@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/jesus997/2case/issues"
   },
-  "homepage": "https://github.com/jesus997/2case#readme"
+  "homepage": "https://github.com/jesus997/2case#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "fallbackjs": "^1.1.8",
+    "jquery": "^3.3.1"
+  }
 }
